@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: #FFFDF7;
+    width: 15vw;
+    height: 110vh;
+    font-family: "Fira Sans", system-ui;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.list{
+    margin-left: 100%;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    color: #2d78b5;
+}
+
+.list:hover{
+    cursor: pointer;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 45px 0;
+} 
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    color: #2d78b5;
+}
+
+.main{
+    width: 85vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    height: 75vh;
+    width: 75vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 130px, 40px;
+}
+
+.hello{
+    font-size: 42px;
+    font-family: sans-serif;
+    margin-bottom: 13px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fira Sans", system-ui;
+    margin-bottom: 13px;
+}
+
+.about{
+    font-size: 25px;
+    font-family: sans-serif; 
+    margin-bottom: 20px; 
+}
+
+.more{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.buttons button{
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #FDC921;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    font-size: 13.3px;
+    color: #2d78b5;
+    background-color: #FFFDF7;
+}
+
+.pic img{
+    width: 385px;
+    height: 65vh;
+
+}
+
+
+/* Contact.html */
+
+.main{
+    background-color: #cde5ed;
+}
+
+.Heading{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #FDC921;
+}
+
+.ContactInfo{
+    background-color: #6798C0;
+}
+.email{
+    display:inline-flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.emailSymbol{
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 35px;
+    margin-left: 10px;
+    background-color: #FDC921;
+    border-radius: 50%;    
+    padding: 10px;
+}
+
+.emailID{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.location{
+    display: inline-flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.locSymbol{
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 35px;
+    padding: 10px;
+    background-color: #FDC921;
+    border-radius: 50%; 
+    margin-left: 10px;
+}
+
+.address{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.phone{
+    display: inline-flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.phoneSymbol{
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 35px;
+    padding: 10px;
+    background-color: #FDC921;
+    border-radius: 50%; 
+    margin-left: 10px;
+}
+
+.number{
+    font-size: 20px;
+    padding: 10px;
+}
+
+hr{
+    border-top: 1px #FDC921 ;
+}
+
+
+/* Skills.html */
+
+
+.icons img{
+    height: 100px;
+    width: 115px;
+    border-radius: 50%;
+    margin: 50px;
+    margin-left: 130px;
+    box-shadow: 0 4px 8px;
+}
+
+.SkillsContainer{
+    background-color: #6798C0;
+}
+
+
+/* Certifications.html */
+
+
+.CertificatesContainer img{
+    margin-left: 50px;
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.first_anchor a{
+   margin-left: 263px;  
+}
+
+.sec_anchor a{
+    margin-left: 560px;
+}
+
+.CertificatesContainer div{
+    display: inline;
+}
+
+
+/* Projects.html */
+
+
+.ProjectsContainer{
+    background-color: #6798C0;
+}
+
+.ProjectsContainer img{
+    height: 250px;
+    width: 500px;
+    padding: 50px;
+    margin-left: 30px;
+    padding-bottom: 0;
+}
+
+.first h3{
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+.second h3{
+    margin-left: 900px;
+}
+
+.ProjectsContainer div{
+    display: inline-block;
+}
+
+.ProjectsContainer div a{
+    text-decoration: none;
+    color:  #FDC921;
+}
